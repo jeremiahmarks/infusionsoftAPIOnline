@@ -9,11 +9,14 @@ it is not neccessarly tied to one application.  It will be written with the inte
 
 - [ ] User gets to front page
   - [ ] Application checks if it has an appname and/or API key.
+
     If the application does not have an appname and/or API key
     - [ ] Application prompts user for details
       - [ ] Application ensures that Appname and API key allow acces.
+
         If the Appname and API key fail the test
         - [ ] Application removes all info from session and reloads main page. 
+
     If the application does have appname and/or API key
     - [ ] Application displays various stats of the current application
     - [ ] Application displays menu of potential actions.
